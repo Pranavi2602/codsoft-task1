@@ -1,0 +1,154 @@
+body{
+    font-family: Arial;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-with-bokeh-soft-light-defocused-spots_900706-8688.jpg?w=900");
+    background-size: cover;
+   
+}
+.todo-grid,
+.first{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.first{
+    margin-bottom: 10px;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+
+}
+.js-input{
+    font-size: 15px;
+    padding: 6px;
+    background-color:rgb(58, 46, 58);
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+}
+.jsd-input{
+    font-size: 15px;
+    padding: 6px;
+    background-color:rgb(58, 46, 58);
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+}
+.ab{
+    
+    background-color:rgb(58, 46, 58);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid goldenrod;
+
+}
+.jb{
+    
+    background-color:rgb(97, 74, 97);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 5px 4px goldenrod;
+}
+.js-nn{
+    background-color:rgb(97, 74, 97);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.ppara{
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: cursive;
+    
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+
+    body {
+        font-family: Arial;
+        height: 100vh;
+        width: 100%;
+        background-image: url("https://img.freepik.com/premium-photo/abstract-background-with-bokeh-soft-light-defocused-spots_900706-8688.jpg?w=900");
+        background-size: cover;
+        margin: 0; /* Remove default body margin */
+        padding: 20px; /* Add padding for better spacing */
+    }
+    
+    .todo-grid,
+    .first {
+        display: grid;
+        grid-template-columns: 1fr; /* Adjust grid columns for mobile */
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .first {
+        margin-bottom: 10px;
+        align-items: stretch;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .js-input,
+    .jsd-input,
+    .ab,
+    .jb,
+    .js-nn {
+        font-size: 15px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    
+    .para {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 2px 5px 4px goldenrod;
+    }
+    
+    .ppara {
+        color: whitesmoke;
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: cursive;
+    }
+    
+    .todo-grid,
+    .first {
+        grid-template-columns: 1fr; /* Adjust grid columns for mobile */
+    }
+
+    .para {
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+    
+    /* Additional mobile styles can be added here */
+}
